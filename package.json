@@ -1,0 +1,19 @@
+{
+  "name": "fantasy-football-predictor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/scraper.js",
+    "predict": "node src/predictor.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "simple-statistics": "^7.8.3",
+    "node-fetch": "^3.3.2"
+  }
+}
